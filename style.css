@@ -1,0 +1,113 @@
+.menu {
+	width: 100%;
+	display: table;
+}
+.menu ul {
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+	background: #FF8A00;
+}
+.menu ul li:hover, .menu a:hover {
+	background: #3661C8FF;
+}
+.menu li a {
+font-family: Calibri;
+	font-size: 16px;
+	color: #F9F9F9;
+	text-shadow: 
+		-0   -2px 1px #000000,
+		 0   -2px 1px #000000,
+		-0    2px 1px #000000,
+		 0    2px 1px #000000,
+		-2px -0   1px #000000,
+		 2px -0   1px #000000,
+		-2px  0   1px #000000,
+		 2px  0   1px #000000,
+		-1px -2px 1px #000000,
+		 1px -2px 1px #000000,
+		-1px  2px 1px #000000,
+		 1px  2px 1px #000000,
+		-2px -1px 1px #000000,
+		 2px -1px 1px #000000,
+		-2px  1px 1px #000000,
+		 2px  1px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000;
+}
+
+body {
+ 	background-color: #7FFFFFFF;
+}
+
+h1 {
+	font-family: Calibri;
+	background-color: #FFFFFFFF;
+	padding: 0,1px;
+	font-size: 35pt;
+	border-width: 4px;
+	border-style: groove; 
+	border-color: black;
+	text-shadow: 1px 2px 6px #000000FF;
+}
+
+a {
+	font-family: Calibri;
+	color: #FF6A00FF
+}
+hr {
+	color: #FF6A00FF;
+}
+
+p {
+	font-family: Calibri;
+	font-size: 14pt
+}
+
+.text-block {
+	font-family: Calibri;
+	margin-left: 20px
+}
+
+.post {
+	font-family: Calibri;
+	font-size: 12pt
+}
+
+table {
+	font-family: Calibri;
+    border: solid 5px white;
+    border-collapse: collapse;
+    font-size: 14pt
+}
+
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+
+ul, li, ol {
+	font-family: Calibri;
+	font-size: 14pt
+}
+
+.left {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .right {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.video { 
+	float: right; 
+	margin: 0 20px 5px 0; 
+}
